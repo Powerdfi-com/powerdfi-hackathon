@@ -29,7 +29,7 @@ Clone the repository: `git clone git@github.com:Powerdfi-com/powerdfi-hackathon.
 1. Navigate to the backend directory: `cd Backend`
 2. Install dependencies: `go mod tidy`
 3. Rename the `.env.example` file to `.env` and update the necessary environment variables.
-4. Run the database migrations using the Makefile command: `make migrate`
+4. Run the database migrations using the Makefile command: `make db/migrations/up`
 5. Start the backend server: `make run/api`
 
 Please make sure to update the environment variables in the `.env` files for both the frontend and backend codebases before running them.
